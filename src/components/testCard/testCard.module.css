@@ -1,0 +1,71 @@
+.testing__Container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 1rem 0.8rem;
+    border-radius: 12px;
+    background-color: lightblue;
+    height: 3.5rem;
+    /* gap: 1rem; */
+    /* width: 100%; */
+}
+
+.test {
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+    gap: .5rem;
+    
+}
+
+.test__image {}
+
+p {
+    color: #303B59;
+    font-size: 1rem;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.test__punctuation {
+    opacity: .5;
+}
+
+.red {
+    color: #F55;
+    
+}
+
+.bg__red {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55;
+}
+
+.yellow {
+    color: #FFB21E;
+}
+
+.bg__yellow {
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;  
+}
+
+.green {
+    color: #00BB8F;  
+}
+
+bg__green {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F;
+}
+
+.blue {
+    color: #1125D6;
+}
+
+bg__blue {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6;
+}
+
+@media screen and (min-width:770px) {
+    p {
+        font-size: 1.125rem;
+    }
+}

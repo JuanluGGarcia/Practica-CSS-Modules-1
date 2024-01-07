@@ -1,0 +1,55 @@
+p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.result__Your,
+.result__Of,
+.result__Explication {
+    color: #CAC9FF;
+}
+
+.result__Container {
+    width: 140px;
+    height: 140px;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+}
+
+.result__Total {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.result__Of {
+    opacity: .5;
+}
+.result__Total--Word {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.result__Explication {
+    text-align: center;
+    font-weight: 500;
+}
+
+@media screen and (min-width:770px) {
+    .result__Your,
+    .result__Of,
+    .result__Explication {
+        font-size: 1.125rem;
+    }
+
+    .result__Container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .result__Total {
+        font-size: 4.5rem;
+    }
+}
