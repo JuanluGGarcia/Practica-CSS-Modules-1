@@ -4,10 +4,8 @@
     margin-bottom: 1rem;
     padding: 1rem 0.8rem;
     border-radius: 12px;
-    background-color: lightblue;
     height: 3.5rem;
-    /* gap: 1rem; */
-    /* width: 100%; */
+
 }
 
 .test {
@@ -37,7 +35,10 @@ p {
 }
 
 .bg__red {
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55;
+    background: linear-gradient(0deg,
+                     rgba(255, 255, 255, 0.95) 0%,
+                     rgba(255, 255, 255, 0.95) 100%),
+                     #F55;
 }
 
 .yellow {
@@ -45,23 +46,32 @@ p {
 }
 
 .bg__yellow {
-  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;  
+  background: linear-gradient(0deg,
+                    rgba(255, 255, 255, 0.95) 0%,
+                    rgba(255, 255, 255, 0.95) 100%),
+                    #FFB21E;  
 }
 
 .green {
     color: #00BB8F;  
 }
 
-bg__green {
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F;
+.bg__green {
+    background: linear-gradient(0deg,
+                    rgba(255, 255, 255, 0.95) 0%,
+                    rgba(255, 255, 255, 0.95) 100%),
+                    #00BB8F;
 }
 
 .blue {
     color: #1125D6;
 }
 
-bg__blue {
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6;
+.bg__blue {
+    background: linear-gradient(0deg,
+                    rgba(255, 255, 255, 0.95) 0%,
+                    rgba(255, 255, 255, 0.95) 100%),
+                    #1125D6;
 }
 
 @media screen and (min-width:770px) {
