@@ -1,0 +1,31 @@
+export const cardInfo = [
+{ 
+    color:"red",
+    bgColor:"bg__red",
+    path:"./assets/images/icon-reaction.svg",
+    test:"Reaction",
+    punctuation:85
+},
+{
+    color:"yellow",
+    bgColor:"bg__yellow",
+    path:"./assets/images/icon-memory.svg",
+    test:"Memory",
+    punctuation:80
+},
+{
+    color:"green",
+    bgColor:"bg__green",
+    path:"./assets/images/icon-verbal.svg",
+    test:"Verbal",
+    punctuation:61
+},
+{
+    color:"blue",
+    bgColor:"bg__blue",
+    path:"./assets/images/icon-visual.svg",
+    test:"Visual",
+    punctuation:73
+}
+
+];

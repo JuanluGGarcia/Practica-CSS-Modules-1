@@ -1,5 +1,4 @@
 import style from './testCard.module.css'
-// import styles from './testCard.module.css'
 
 const TestCard = (props) => {
     
